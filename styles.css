@@ -1,4 +1,72 @@
 .main
 {
     display: flex;
+    flex-direction: column;
+
+}
+.boxes
+{
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    justify-content: center;
+
+}
+#informationheader
+{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937; 
+    text-align: center;
+}
+.BOXTEXT
+{
+    height: 140px;
+    width: 140px;
+
+}
+.redundant
+{
+    height: 140px;
+    width: 140px;
+    border: 4px solid;
+    border-color: blue;
+    border-radius: 10px;
+    justify-content: center;
+
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    gap:7px;
+    justify-content: center;
+}
+
+.footer
+{
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+}
+.quote
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    height: 300px;
+}
+.counter
+{
+    font-size: 36px;
+    font-style:italic;
+    
+}
+.author
+{
+margin-left: 700px;
+font-size: 20px;
+    font-weight: 700;
+    padding-top:20px;
 }
